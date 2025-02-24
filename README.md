@@ -82,7 +82,7 @@ Revenue distribution across regions reveals that Canada, the USA, and France col
 In terms of customer segmentation, Government clients generate the highest share of revenue. However, a decline in units sold and a small YoY profit loss suggest potential inefficiencies in this segment. Meanwhile, Small Businesses experienced a 28% increase in units sold YoY but suffered a 7% decline in profit YoY, raising concerns about the effectiveness of the current discounting strategy, particularly in the USA.
 Additionally, the QuadCast S is seeing a decline in both units sold and profit YoY, signalling a potential shift in product demand. This presents an opportunity to reassess its pricing strategy or explore the introduction and marketing of a replacement product with stronger profit margins.
 
-!([link](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Dashboard%20Overview.png))
+![Dashboard Overview](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Dashboard%20Overview.png)
 
 ---
 
