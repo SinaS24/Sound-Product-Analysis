@@ -98,7 +98,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Small Business sales in the USA have increased**, but profitability has declined due to **aggressive discounting**.
 - **France** presents a growth opportunity, with **largest increase in unit sales band Profit**, indicating potential for further **expansion with and targeted marketing efforts**.
 
-!([Revenue by Country](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20By%20Country.png)) 
+!([Revenue by Country](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20By%20Country.png)
 
 ---
 
@@ -107,8 +107,8 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Seasonal trends indicate fluctuations in demand**, highlighting the importance of **strategic inventory planning and promotional efforts** Particularly around June and October times.
 - **Despite higher revenue, profit growth is lagging**, largely due to declining sales in **Mexico and Germany**, as well as **margin erosion from high discount usage**.
 
-!([Revenue Trends and YoY growth 2.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth.png))
-!([Revenue Trends and YoY growth.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png)) 
+!([Revenue Trends and YoY growth 2.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth.png)
+!([Revenue Trends and YoY growth.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png)
 
 ---
 
@@ -118,7 +118,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Government clients generate the highest revenue**, but **unit sales are declining**, and **profits are slightly negative YoY**, suggesting a need to **reassess pricing and discount structures**.
 - **Germany and Mexico are not only seeing a decline in unit sales but also experiencing negative profit growth**, indicating that discounting in these markets may not be stimulating enough demand to sustain profitability.
 
-!([Discounting Strategies](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Discounting%20Strategies%20%26%20Impact%20on%20Profitability.png)) 
+!([Discounting Strategies](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Discounting%20Strategies%20%26%20Impact%20on%20Profitability.png)
 
 ---
 
@@ -127,8 +127,8 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Scarlett 2i2** is also showing a large lag in profitability, suggesting an opportunity to introduce a replacement product with better margins or a reassessment of the discount strategy. 
 - **Mexico and Germany may require market-specific adjustments**, such as **price optimisations, targeted promotions, or inventory realignments**, to improve performance.
 
-!([Product Performance & Market Trends](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png)) 
-!([Product Performance & Market Trends2](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png)) 
+!([Product Performance & Market Trends](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png)
+!([Product Performance & Market Trends2](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png)
 
 
 # Recommendations
