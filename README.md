@@ -16,14 +16,13 @@ Insights and recommendations are provided on the following key areas:
 
 ## SQL & Dashboard Links
 
-- The **SQL queries** used to inspect and clean the data for this analysis can be found **[here](#)**.  
-- Targeted **SQL queries** regarding various business questions can be found **[here](#)**.  
+- The **SQL queries** used to inspect and clean the data for this analysis can be found **[here](https://raw.githubusercontent.com/SinaS24/Asces-Sound-Product-Analysis/refs/heads/main/Inspecting%20and%20Cleaning.sql)**.  
 - An **interactive Power BI dashboard** used to report and explore sales trends can be found **[here](https://app.powerbi.com/links/f69OO0mMV7?ctid=467ebcdc-88be-415f-a596-b3bb27570812&pbi_source=linkShare)**.  
 
 
 # Data Structure & Initial Checks
 
-The database consists of **three core tables**—`ProductData`, `ProductSales`, and `DiscountData`—which were joined and structured to create a final dataset for analysis. Each row in the final dataset represents a sales transaction, including product details, pricing, discounting, and revenue calculations.
+The database consists of **three core tables**—`ProductData`, `ProductSales`, and `DiscountData`— which were joined and structured to create a final dataset for analysis. Each row in the final dataset represents a sales transaction, including product details, pricing, discounting, and revenue calculations.
 
 ## Final Dataset Schema
 
@@ -72,7 +71,7 @@ Before performing any analysis, the following checks and cleaning steps were con
 **Created New Calculated Columns**  
 - Revenue
 - Total Cost
-- Discounted Revenue ;’
+- Discounted Revenue
 
 
 # Executive Summary
@@ -82,7 +81,8 @@ This analysis and dashboard provide key insights into sales performance, revenue
 Revenue distribution across regions reveals that Canada, the USA, and France collectively contribute approximately 60% of total revenue. Both Mexico and Germany are declining markets both in Units Sold YoY and Profit YoY. Despite this regional performance, overall profit has grown by 7% YoY, with June and October standing out as the strongest-performing months.
 In terms of customer segmentation, Government clients generate the highest share of revenue. However, a decline in units sold and a small YoY profit loss suggest potential inefficiencies in this segment. Meanwhile, Small Businesses experienced a 28% increase in units sold YoY but suffered a 7% decline in profit YoY, raising concerns about the effectiveness of the current discounting strategy, particularly in the USA.
 Additionally, the QuadCast S is seeing a decline in both units sold and profit YoY, signalling a potential shift in product demand. This presents an opportunity to reassess its pricing strategy or explore the introduction and marketing of a replacement product with stronger profit margins.
-<Insert dashboard image>
+
+!([link](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Dashboard%20Overview.png))
 
 ---
 
@@ -98,7 +98,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Small Business sales in the USA have increased**, but profitability has declined due to **aggressive discounting**.
 - **France** presents a growth opportunity, with **largest increase in unit sales band Profit**, indicating potential for further **expansion with and targeted marketing efforts**.
 
-📊 _[Insert visualization: Revenue breakdown by country]_  
+!([link](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20By%20Country.png)) 
 
 ---
 
@@ -107,7 +107,8 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Seasonal trends indicate fluctuations in demand**, highlighting the importance of **strategic inventory planning and promotional efforts** Particularly around June and October times.
 - **Despite higher revenue, profit growth is lagging**, largely due to declining sales in **Mexico and Germany**, as well as **margin erosion from high discount usage**.
 
-📊 _[Insert visualization: Monthly revenue trends and YoY comparison]_  
+!([link](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth.png))
+!([link](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png)) 
 
 ---
 
@@ -117,7 +118,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Government clients generate the highest revenue**, but **unit sales are declining**, and **profits are slightly negative YoY**, suggesting a need to **reassess pricing and discount structures**.
 - **Germany and Mexico are not only seeing a decline in unit sales but also experiencing negative profit growth**, indicating that discounting in these markets may not be stimulating enough demand to sustain profitability.
 
-📊 _[Insert visualization: Discount band impact on revenue and profitability]_  
+!(link) 
 
 ---
 
@@ -126,8 +127,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Scarlett 2i2** is also showing a large lag in profitability, suggesting an opportunity to introduce a replacement product with better margins or a reassessment of the discount strategy. 
 - **Mexico and Germany may require market-specific adjustments**, such as **price optimisations, targeted promotions, or inventory realignments**, to improve performance.
 
-
-📊 _[Insert visualization: Product performance breakdown]_  
+!(link) 
 
 
 # Recommendations
