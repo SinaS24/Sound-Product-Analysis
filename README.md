@@ -108,8 +108,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Despite higher revenue, profit growth is lagging**, largely due to declining sales in **Mexico and Germany**, as well as **margin erosion from high discount usage**.
 
 ![Revenue Trends and YoY growth 2.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth.png)
-![Revenue Trends and YoY growth.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png)
-<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png?raw=true" width="500">
+<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png?raw=true" width="300">
 
 ---
 
@@ -128,11 +127,8 @@ This section provides a detailed breakdown of key insights into **sales performa
 - **Scarlett 2i2** is also showing a large lag in profitability, suggesting an opportunity to introduce a replacement product with better margins or a reassessment of the discount strategy. 
 - **Mexico and Germany may require market-specific adjustments**, such as **price optimisations, targeted promotions, or inventory realignments**, to improve performance.
 
-![Product Performance & Market Trends](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png)
-![Product Performance & Market Trends2](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png)
 <img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png?raw=true" width="500">
 <img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png?raw=true" width="500">
-
 
 # Recommendations
 
