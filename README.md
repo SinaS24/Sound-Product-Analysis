@@ -83,10 +83,6 @@ In terms of customer segmentation, Government clients generate the highest share
 Additionally, the QuadCast S is seeing a decline in both units sold and profit YoY, signalling a potential shift in product demand. This presents an opportunity to reassess its pricing strategy or explore the introduction and marketing of a replacement product with stronger profit margins.
 
 ![Dashboard Overview](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Dashboard%20Overview.png)
-<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Dashboard%20Overview.png?raw=true" width="300">
-
-
-
 
 ---
 
@@ -113,6 +109,7 @@ This section provides a detailed breakdown of key insights into **sales performa
 
 ![Revenue Trends and YoY growth 2.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth.png)
 ![Revenue Trends and YoY growth.png](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png)
+<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Revenue%20Trends%20and%20YoY%20growth%202.png?raw=true" width="500">
 
 ---
 
@@ -133,6 +130,8 @@ This section provides a detailed breakdown of key insights into **sales performa
 
 ![Product Performance & Market Trends](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png)
 ![Product Performance & Market Trends2](https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png)
+<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends.png?raw=true" width="500">
+<img src="https://github.com/SinaS24/Asces-Sound-Product-Analysis/blob/main/Images/Product%20Performance%20%26%20Market%20Trends%202.png?raw=true" width="500">
 
 
 # Recommendations
