@@ -38,7 +38,7 @@ FROM ProductData
 GROUP BY Product_ID
 HAVING COUNT(*) > 1;
 
--- Find row with missing data and Remove row 
+-- Find row with missing data and remove row 
 SELECT * 
 FROM ProductSales
 WHERE Product IS NULL;
@@ -47,13 +47,12 @@ WHERE Customer_Type = 'Education'
 AND Country = 'United States of America'
 AND Product IS NULL;
 
-
--- 1: Join ProductSales with ProductData
--- 2: Format the Date column into separate Month and Year columns 
--- 3: Create calculated columns: Revenue and Total_Cost
--- 4: Join the result with DiscountData to include discount information
--- 5: Create Discount_Revenue, based on discount percentages.
-WITH T1 AS (
+-- Join ProductSales with ProductData
+-- Format the Date column into separate Month and Year columns 
+-- Create calculated columns: Revenue and Total_Cost
+-- Join the result with DiscountData to include discount information
+-- Create Discount_Revenue, based on discount percentages.
+;WITH T1 AS (
     SELECT
         product.Product,
         product.Category,
@@ -82,3 +81,70 @@ SELECT
 FROM T1 a
 JOIN DiscountData b
 on a.Discount_Band = b.Discount_Band and a.month = b.month 
+
+-- Basic Statistics for Revenue, Total_Cost, and Units_Sold
+;WITH T1 AS (
+    SELECT
+        product.Product,
+        product.Category,
+        product.Brand,
+        product.Description,
+        product.Cost_Price,
+        product.Sale_Price,
+        product.Image_url,
+        sales.Date,
+        sales.Customer_Type,
+        sales.Country,
+        sales.Discount_Band,
+        sales.Units_Sold,
+        (product.Sale_Price * sales.Units_Sold) AS Revenue,
+        (product.Cost_Price * sales.Units_Sold) AS Total_Cost,
+        FORMAT(sales.Date, 'MMMM') AS Sales_Month,
+        FORMAT(sales.Date, 'yyyy') AS Sales_Year
+    FROM ProductData product
+    JOIN ProductSales sales ON product.Product_ID = sales.Product
+),
+Discounted_Revenue AS (
+    SELECT
+        T1.*,
+        DiscountData.Discount,
+        (1 - DiscountData.Discount * 1.0 / 100) * T1.Revenue AS Discount_Revenue
+    FROM T1
+    JOIN DiscountData ON T1.Discount_Band = DiscountData.Discount_Band AND T1.Sales_Month = DiscountData.Month
+)
+SELECT
+    AVG(Revenue) AS Average_Revenue,
+    MIN(Revenue) AS Min_Revenue,
+    MAX(Revenue) AS Max_Revenue,
+    AVG(Total_Cost) AS Average_Cost,
+    MIN(Total_Cost) AS Min_Cost,
+    MAX(Total_Cost) AS Max_Cost,
+    AVG(Units_Sold) AS Average_Units,
+    MIN(Units_Sold) AS Min_Units,
+    MAX(Units_Sold) AS Max_Units
+FROM Discounted_Revenue;
+
+-- Categorical Data Analysis for Product, Customer_Type, and Country
+SELECT Product, COUNT(*) AS Frequency, COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS Percentage
+FROM ProductSales
+GROUP BY Product
+ORDER BY Frequency DESC;
+
+SELECT Customer_Type, COUNT(*) AS Frequency, COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS Percentage
+FROM ProductSales
+GROUP BY Customer_Type
+ORDER BY Frequency DESC;
+
+SELECT Country, COUNT(*) AS Frequency, COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS Percentage
+FROM ProductSales
+GROUP BY Country
+ORDER BY Frequency DESC;
+
+-- Distribution of Discounts
+SELECT
+    Discount_Band,
+    COUNT(*) AS Frequency,
+    COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS Percentage
+FROM ProductSales
+GROUP BY Discount_Band
+ORDER BY Frequency DESC;
